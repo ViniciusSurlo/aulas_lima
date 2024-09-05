@@ -1,0 +1,178 @@
+
+<!DOCTYPE html> ;
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+
+    <style>
+        /* Seletor universal */
+        /* * { */
+            /* margin: 0; */
+        /* } */
+        /* Seletor de tipo, aplicando em uma tag */
+        p{
+            color: brown;
+        }
+
+        /* Seletor de classe */
+        .paragrafo{
+            background-color: rgb(46, 84, 255);
+            /* margin: 10px; - Aplica em todas as margens */
+            /* margin: 10px 40 px; - Aplica nas margens 'Laterais e 'superior e inferior */
+            /*margin: 10px 20px 30px 40px;  Aplica margem top, right, bottom, left */
+            /* margin-left: 10px; */
+            text-align: center;
+        }
+        .imagem{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<!-- Aplicando css inline  -->
+<body style="background-color: rgb(168, 35, 225);">
+    Olá mundo!😎
+    <!-- Titulo de nivel 1 ao 6-->
+    <h1>Desenvolvimento de sistemas</h1>
+    <h2>Sesi Senai</h2>
+    <h3>Cabeçalho nivel 3</h3>
+    <h4>Cabeçalho nivel4</h4>
+    <h5>Cabeçalho nivel5</h5>
+    <h6>cabeçalho nivel 6</h6>
+
+    <!-- Insere uma linha na horizontal  -->
+     <hr>
+     <!-- A tag p insere um novo paragrafo -->
+      <p>Este é um parágrafo 
+        <p>Outro parágrafo</p>
+    </p>
+    <hr>
+    
+    <!-- A tag br quebra uma linha. ela é uma tag sem fechamento -->
+    <p>Este é um texto muito grande, <br>
+        que eu desejo quebrar a linha </p>
+    
+    <!-- Inserindo um link para abrir uma pagina -->
+     <a href="https://www.sesisp.org.br/" style="color: black;"> Pagina do Sesi</a>
+
+     <!-- Link com atributo _blank para abrir em outra janela -->
+    <a href="https://www.sp.senai.br/" target="_blank"> Senai</a>
+
+    <!-- Tag img para adicionar uma imagem,
+     o atributo src e preenchido com o caminho da imagem -->
+    <img src="" alt="">
+    <img src="./img/ferrari.gif">
+
+
+
+
+
+    <p>Paragrafo com caracter &lt;br&gt;</p>
+    <p>&reg; &copy; &trade; &euro; &pound; &yen; &cent; &delta; &uarr;</p>
+
+    <!-- Para inserir emoji use o hexadecimal do site emojipedia.org e o código vai depois do &#x -->
+
+    <p>Inserindo um emoji &#x1F60A &#x2764 </p>
+
+    <!-- Tags para formatação e enfatização do texto -->
+     <b>Texto em negrito</b><br>
+     <strong> Texto importante</strong><br>
+     <h1><i>H1 italico</i></h1><br>
+     <em>Texto enfatizado</em><br>
+    <mark> Texto Marcado</mark><br>
+    <h3>Texto <small>Menor</small></h3><br>
+    <del>Texto Excluido</del><br>
+    <ins>Texto Inserido</ins>
+    <p>4<sub>2</sub></p>
+    <p>3<sub>3</sub></p>
+    
+    <!-- Aplicando Link em uma Imagem -->
+     <a href="https://www.sesisp.org.br" target="_blank"><img src="./img/Sesi_logo.jfif"alt=""></a> <br>
+
+     <a href="https://www.sp.senai.br/" target="_blank"><img src="./img/Senai_logo.png" alt=""></a>
+
+     <!-- Link de video na imagem -->
+     <a href="https://www.youtube.com/watch?v=VKsL22-FB2g&t=27s" target="_blank"><img src="./img/Sesi_logo.jfif" alt=""></a><br>
+
+     <p style="font-size: xx-large;">Vídeos no youtube</p> <br>
+     
+     <iframe  width="928" height="522" src="https://www.youtube.com/embed/VKsL22-FB2g" title="Seminário Internacional de Educação Inclusiva SESI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>></iframe>
+    
+     <iframe width="928" height="522" src="https://www.youtube.com/embed/KPLWWIOCOOQ" title="Game of Thrones | Official Series Trailer (HBO)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>></iframe>
+    
+     <!-- Aplicando CSS interno -->
+     <p class="paragrafo">
+        Logo do SENAI
+        <img class="imagem" src="./img/Senai_logo.png" alt="">
+     </p>
+     <!-- Listas -->
+    <ol>
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Colocar uniforme</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir a escola no horario</li>
+    </ol> <br>
+
+    <!-- Lista ordenada com número romano minusculo -->
+    <ol type="i">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Colocar uniforme</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir a escola no horario</li>
+    </ol> <br>
+
+    <!-- Listas ordenadas com letras maiusculas -->
+    <ol type="A">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Colocar uniforme</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir a escola no horario</li>
+    </ol> <br>
+
+    <!-- Lista não ordenada -->
+     <ul>
+        <li>Carvão</li>
+        <li>Carne</li>
+        <li>Bebidas</li>
+        <li>Arroz</li>
+        <li>Pâo de alho</li>
+     </ul><br>
+
+     <!-- Lista dentro de lista -->
+     <ul>
+        <li> Carnes
+            <ul>
+            <li>Picanha</li>
+            <li>Cupim</li>
+            <li>Ponta de Peito</li>
+        </li>
+    </ul>
+    </li>
+        <li>Carvão</li>
+        <li>Carne</li>
+        <li>Bebidas</li>
+        <li>Arroz</li>
+        <li>Pâo de alho</li>
+     </ul>
+
+     <!-- Lista predefinida -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd> Linguagem de estilização do site</dd>
+        <dt>Javascript</dt>
+        <dd>Linguagem de programação</dd>
+    </dl>
+    </body>
+</html>
+
+
