@@ -1,0 +1,47 @@
+
+        /* Seletor universal */
+        /* * { */
+            /* margin: 0; */
+        /* } */
+        /* Seletor de tipo, aplicando em uma tag */
+        p{
+            color: brown;
+        }
+
+        /* Seletor de classe */
+        .paragrafo{
+            background-color: rgb(46, 84, 255);
+            /* margin: 10px; - Aplica em todas as margens */
+            /* margin: 10px 40 px; - Aplica nas margens 'Laterais e 'superior e inferior */
+            /*margin: 10px 20px 30px 40px;  Aplica margem top, right, bottom, left */
+            /* margin-left: 10px; */
+            text-align: center;
+        }
+        .imagem{
+            width: 100px;
+            height: 100px;
+        }
+    .body{
+        background-color: rgb(11, 177, 199);
+    }
+    .tabela{
+        /* remover os espaços entre as bordas */
+        border-collapse: collapse;
+        width: 100%;
+    }
+    .cabecalho, .celula{
+        /* configura o formato da borda 
+        espessura, tipo e cor*/
+        border: 2px solid #000000;
+        /* define o espaçamento interno */
+        padding: 5px;
+        text-align: left;
+        color: black;
+    }
+
+    .cabecalho2{
+        background-color: aqua;
+    }
+    .cabecalho3{
+        background-color: rgb(210, 105, 30);
+    }
