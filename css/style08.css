@@ -1,0 +1,52 @@
+ .cabecalho{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    
+    
+} 
+.formulario{
+    height: 500px;
+    width: 300px;
+    padding: 50px;
+    margin: 0 auto;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 49%, rgba(9,12,123,1) 100%, rgba(0,212,255,1) 100%);
+}
+.cadastro{
+    height: 30px;
+    width: 300px;
+}
+.botao{
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 70px;
+    padding: 5px;
+    background-color: rgb(113, 124, 246);
+    border-radius: 1px;
+    font-size: small;
+}
+.formularioUsuario{
+    color: black;
+    background-color: aliceblue;
+    padding: 20px;
+    width: 350px;
+    height: 750px;
+    margin: 0 auto;
+    
+}
+
+.formularioProduto{
+    color: black;
+    background-color: aliceblue;
+    padding: 20px;
+    width: 350px;
+    height: 470px;
+    margin: 0 auto;
+
+}
