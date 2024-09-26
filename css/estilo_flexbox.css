@@ -10,7 +10,7 @@
     background-color: rgb(140, 0, 255);
 }
 
-.conteiner{
+.container{
     border: 2px solid black;
     /* Limita o tamanho do elemento */
     max-width: 400px;
@@ -21,8 +21,102 @@
 }
 
 .item{
-    background-color: blue;
+    background-color: rgba(13, 21, 108, 0.642);
     margin: 5px;
     text-align: center;
     color: aliceblue;
+}
+
+.imagem{
+    height: 200px;
+    width: 200px;
+}
+
+.flex{
+    display: flex;
+    /* Define a direção dos elementos  */
+   
+}
+
+.flex > div > img {
+    height: 200px;
+    width: 200px;
+}
+
+.div-coluna{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(67, 144, 144);
+}
+
+.secao{
+    display: flex;
+    flex-direction: row;
+  
+    background-color: brown;
+    /*Coloca um espaço entre os elemento*/
+    gap: 10px;
+    /*Quebra os elementos para outra linha, caso não haja espaço suficiente*/
+    flex-wrap: wrap;
+
+}
+
+.secao-imagem{
+    width: 250px;
+    height: 250px;
+}
+
+.alinhar-esquerda{
+    display: flex;
+    flex-direction: row;
+    /* Alinha os elementos ao inicio */
+    justify-content: flex-start;
+}
+
+.alinhar-centro{
+    display: flex;
+    flex-direction: row;
+    /* Alinha os elementos ao centro */
+    justify-content: center;
+}
+
+.alinhar-direita{
+    display: flex;
+    flex-direction: row;
+    /* Alinha os elementos ao centro */
+    justify-content: flex-end;
+}
+
+.alinhar-entre{
+    display: flex;
+    flex-direction: row;
+    /* Alinha os elementos ao centro e extremidades */
+    justify-content: space-between;
+}
+
+.alinhar-redor{
+    display: flex;
+    flex-direction: row;
+    /*Distribui os itens com espaço ao redor */
+    justify-content: space-around;
+}
+
+.alinhar-coluna{
+    display: flex;
+    flex-direction: column;
+    /*Distribui os itens com espaço ao redor */
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: aqua;
+}
+
+.alinhar-itens-centro{
+    display: flex;
+    flex-direction: column;
+    /*Distribui os itens com espaço ao redor */
+    height: 200px;
+    background-color: rgb(195, 255, 0);
+    align-items: center;
+    justify-content: space-between;
 }

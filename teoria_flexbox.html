@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+
+    <link rel="stylesheet" href="./css/estilo_flexbox.css">
+
+</head>
+    <body>
+        <h1>Trabalhando com Div</h1>
+        <div class="div1">
+            <h2>Londres</h2>
+            <p style="background-color: rgb(67, 220, 220);">Londres é a Capital da Inglaterra</p>
+            <p>Londres tem 13 milhões de habitantes</p>
+            <label for="" class="div2">Texto</label>
+
+            <h1 class="div3">Texto h1</h1>
+
+            <label for="" class="div2">Texto2</label>
+        </div>
+        <div class="div2">
+            <h2>Londres</h2>
+            <p>Londres é a Capital da Inglaterra</p>
+            <p>Londres tem 13 milhões de habitantes</p>
+        </div>
+        <div class="div3">
+            <h2>Londres</h2>
+            <p>Londres é a Capital da Inglaterra</p>
+            <p>Londres tem 13 milhões de habitantes</p>
+        </div>
+
+        <h1>Trabalhando com FlexBox</h1>
+        <p>Utilizamos FlexBox para posicionar os elementos de uma linha ou coluna
+            de forma dinâmica
+        </p>
+        <p>Por padrão, os elementos são exibidos em linha (block)</p>
+        <section class="container">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </section>
+
+        <p>Flex com mais elementos, preechendo a largura da tela</p>           
+        <section class="container">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+            <div class="item">Item 5</div>
+            <div class="item">Item 6</div>
+            <div class="item">Item 7</div>
+            <div class="item">Item 8</div>
+            <div class="item">Item 9</div>
+        </section>
+
+        <p>Flex Direction - Alterando a direção do elemento</p>
+        <section class="flex">
+            <div class="div-coluna">
+                <img src="/img/ferrari.gif" alt="" class="imagem">
+                <p>Ferrari ☠</p>
+            </div>
+            <div class="div-coluna"> 
+                <img src="/img/7462c0298919e896b58e4fc494a391c0.gif" alt="" class="imagem">
+            <p>Carro Ferrari 🚗</p>
+            </div>
+            <div class="div-coluna">
+                <img src="/img/giphy.gif" alt="" class="imagem">
+            <p> Ferrari na Neve ❄❄❄</p>
+            </div>
+            <div class="div-coluna">
+                <img src="/img/7462c0298919e896b58e4fc494a391c0.gif" alt="" class="imagem">
+            <p>Ferrari na Corrida 🏁🏁</p>
+            </div>
+        </section>
+
+        <p>Flex Wrap - Faz a quebra do elemento quando não há mais espaço</p>
+        <section class="secao">
+            <img class="secao-imagem" src="/img/giphy.gif" alt="">
+            <img class="secao-imagem" src="/img/ferrari.gif" alt="">
+            <img class="secao-imagem" src="/img/giphy.gif" alt="">
+            <img class="secao-imagem" src="/img/7462c0298919e896b58e4fc494a391c0.gif" alt="">
+            <img class="secao-imagem" src="/img/ferrari.gif" alt="">
+            <img class="secao-imagem" src="/img/ferrari.gif" alt="">
+            <img class="secao-imagem" src="/img/ferrari.gif" alt="">
+            <img class="secao-imagem" src="/img/ferrari.gif" alt="">
+    
+
+        </section>
+
+        <p>Justify - content - Alinha os itens flex no container de acordo com a direção</p>
+        <section class="alinhar-esquerda">
+            <img class="secao-imagem" src="/img/giphy.gif" alt="">
+            <img class="secao-imagem" src="/img/ferrari.gif" alt="">
+            <img class="secao-imagem" src="/img/7462c0298919e896b58e4fc494a391c0.gif" alt="">
+        </section>
+        <p>Alinhar ao centro</p>
+        <section class="alinhar-centro">
+            <img class="secao-imagem" src="/img/giphy.gif" alt="">
+            <img class="secao-imagem" src="/img/ferrari.gif" alt="">
+            <img class="secao-imagem" src="/img/7462c0298919e896b58e4fc494a391c0.gif" alt="">
+        </section>
+        
+        <p>Alinhar a direita</p>
+        <section class="alinhar-direita">
+            <img class="secao-imagem" src="/img/giphy.gif" alt="">
+            <img class="secao-imagem" src="/img/ferrari.gif" alt="">
+            <img class="secao-imagem" src="/img/7462c0298919e896b58e4fc494a391c0.gif" alt="">
+        </section>
+        
+        <p>Alinhar os elementos nos cantos e ajusta ao centro</p>
+        <section class="alinhar-entre">
+            <img class="secao-imagem" src="/img/giphy.gif" alt="">
+            <img class="secao-imagem" src="/img/ferrari.gif" alt="">
+            <img class="secao-imagem" src="/img/7462c0298919e896b58e4fc494a391c0.gif" alt="">
+        </section>
+    
+        <p>Space-around - Alinhar os elementos a partir do espaço ao redor</p>
+        <section class="alinhar-redor">
+            <img class="secao-imagem" src="/img/giphy.gif" alt="">
+            <img class="secao-imagem" src="/img/ferrari.gif" alt="">
+            <img class="secao-imagem" src="/img/7462c0298919e896b58e4fc494a391c0.gif" alt="">
+        </section>
+
+        <p>Espaçamento usando colunas</p>
+        <section class="alinhar-coluna">
+            <img class="secao-imagem" src="/img/giphy.gif" alt="">
+            <img class="secao-imagem" src="/img/ferrari.gif" alt="">
+            <img class="secao-imagem" src="/img/7462c0298919e896b58e4fc494a391c0.gif" alt="">
+        </section>
+
+        <section class="alinhar-itens-centro">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </section>
+
+    </body>
+</html>
