@@ -28,7 +28,7 @@
 }
 
 .imagem{
-    height: 200px;
+    height: 300px;
     width: 200px;
 }
 
@@ -119,4 +119,106 @@
     background-color: rgb(195, 255, 0);
     align-items: center;
     justify-content: space-between;
+}
+
+.container-card{
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    height: 100%;
+}
+
+.card{
+    width: 300px;
+    height: 200px;
+    flex-direction: column;
+    flex: 0 0 auto; /* Evita que os cards encolham ou se ajustem automaticamente  */
+    border: 1px  solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.4);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+.card:hover{
+    /* Serve para criar um efeito hover, mudando a posição do card */
+    transform: scale(1.025);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.6);
+
+}
+.cabecalho-card{
+    padding: 5px;
+    text-align: center;
+
+
+}
+
+.titulo_card{
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+
+}
+
+.subtitulo_card{
+    margin: 0;
+    font-size: 1rem;
+    color: #7e7e7e; 
+
+}
+
+.imagem-card{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 250px;
+}
+
+.imagem-card > img {
+    max-width: 100%; /* Mantem o limite do tamanho do container */
+    height: 150px; /*mantem a proporção da imagem*/
+}
+
+.imagem-card > figcaption{
+    font-size: 0.8rem;
+    padding: 8px;
+    text-align: center;
+    color: #555;
+
+}
+
+.conteudo-card{
+    padding: 10px;
+    background-color: #ebebeb;
+    text-align: center;
+    height: 70px;
+}
+
+.rodape-card{
+    background-color: #878585;
+    text-align: center;
+    padding: 6px;
+}
+
+.botao-card{
+    text-decoration: none; /* Remove a decoração de linha */
+    color : #fff;
+    background-color: blue;
+    border-radius: 4px;
+    padding: 5px 6px;
+    /* Permite definir largura e altura, alinha os elementos na mesma linha */
+    display: inline-block;
+
+}
+
+.botao-card:hover{
+    background-color: #970acf;  
+    width: 150px;
 }
