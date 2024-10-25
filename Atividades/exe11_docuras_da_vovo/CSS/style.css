@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 170px;
+    object-fit: cover;
+}
+
+.carousel-item img{
+    height: 600px;
+    object-fit: cover;
+}
+
+.azul{
+    color: blue;
+}
