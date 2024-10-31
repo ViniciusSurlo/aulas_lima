@@ -120,3 +120,14 @@
         background-color: #ff4400;
         border-color: #00ff22;
     }
+
+    .card > img{
+        width: 100%;
+        height: 50%;
+        object-fit: fill;
+    }
+
+    .card:hover{
+        transform: scale(1.025);
+        box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+    }
