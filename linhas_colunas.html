@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linhas e Colunas</title>
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Usando Linhas, colunas e deixando nossas páginas responsivas -->
+    <!-- <p>Produtos</p>
+     <div class="row bg-info">
+        <div class="col">
+            <img src="./img/balbassauro.jfif"  alt="">
+            <p>Imagem 01</p>
+        </div>
+        <div class="col">
+            <img src="./img/charmander.png" alt="">
+            <p>Imagem 02</p>
+        </div>
+        <div class="col">
+            <img src="./img/balbassauro.jfif" alt="">
+            <p>Imagem 03</p>
+        </div>
+        <div class="col">
+            <img src="./img/balbassauro.jfif" alt="">
+            <p>Imagem 04</p>
+        </div>
+     </div> -->
+
+    <p>Trabalhando com 12 Colunas</p>
+    <!-- A Class row é usada para criar uma linha -->
+    <div class="row">
+        <!-- A class col é usada para criar uma  nova coluna -->
+        <div class="bg-danger col-12 col-md-6 col-lg-3 col-xl-1">Posição 01</div>
+        <div class="bg-info col-12 col-md-6 col-lg-3 col-xl-1">Posição 02</div>
+        <div class="bg-warning col-12 col-md-6 col-lg-3 col-xl-1">Posição 03</div>
+        <div class="bg-info col-12 col-md-6 col-lg-3 col-xl-1">Posição 04</div>
+        <div class="bg-info col-12 col-md-6 col-lg-3 col-xl-1">Posição 05</div>
+        <div class="bg-info col-12 col-md-6 col-lg-3 col-xl-1">Posição 06</div>
+        <div class="bg-info col-12 col-md-6 col-lg-3 col-xl-1">Posição 07</div>
+        <div class="bg-info col-12 col-md-6 col-lg-3 col-xl-1">Posição 08</div>
+        <div class="bg-info col-12 col-md-6 col-lg-3 col-xl-1">Posição 09</div>
+        <div class="bg-info col-12 col-md-6 col-lg-3 col-xl-1">Posição 10</div>
+        <div class="bg-info col-12 col-md-6 col-lg-3 col-xl-1">Posição 11</div>
+        <div class="bg-info col-12 col-md-6 col-lg-3 col-xl-1">Posição 12</div>
+    </div>
+
+    <p>Aninhamento de colunas</p>
+    <section class="conteiner m-5">
+        <h2>Nossa Equipe</h2>
+        <div class="row mt-3">
+            <!-- Equipe de desenvolvimento  -->
+             <div class="col-12 col-md-4 bg-light border border-2 border-primary rounded ">
+                <h3 class="text-primary">Desenvolvimento</h3>
+                <p>Especialistas em criar soluções inovadoras</p>
+                <div class="row text-center">
+                    <div class="col-6 p-2">
+                        <img src="https://picsum.photos/200/300" alt="" class="img-fluid">
+                        <p> <strong>Maria Silva</strong> <br>Desenvolvedora Back-end</p>
+                    </div>
+                    <div  class="col-6 p-2">
+                        <img src="https://picsum.photos/200/300" alt="" class="img-fluid">
+                        <p> <strong>Reginaldo Rossi</strong> <br>Desenvolvedor Front-end</p>
+                        
+                    </div>
+                </div>
+             </div>
+
+            <!-- Equipe de Marketing  -->
+             <div class="col-12 col-md-4 bg-light border border-2 border-primary rounded ">
+                <h3 class="text-primary">Marketing</h3>
+                <p>Engajando e conectando com o público</p>
+                <div class="row text-center">
+                    <div class="col-6 p-2">
+                        <img src="https://picsum.photos/200/300" alt="" class="img-fluid">
+                        <p> <strong>João das Neves</strong> <br>Gerente de Marketing</p>
+                    </div>
+                    <div  class="col-6 p-2">
+                        <img src="https://picsum.photos/200/300" alt="" class="img-fluid">
+                        <p> <strong>Patrick Estrela</strong> <br>Especialista em SEO</p>
+                        
+                    </div>
+                </div>
+             </div>
+
+            <!-- Equipe de design  -->
+             <div class="col-12 col-md-4 bg-light border border-2 border-primary rounded ">
+                <h3 class="text-primary">Desing</h3>
+                <p>Criando identidades visuais inovadoras</p>
+                <div class="row text-center">
+                    <div class="col-6 p-2">
+                        <img src="https://picsum.photos/200/300" alt="" class="img-fluid">
+                        <p> <strong>Mike Tyson</strong> <br>Designer Gráfico</p>
+                    </div>
+                    <div  class="col-6 p-2">
+                        <img src="https://picsum.photos/200/300" alt="" class="img-fluid">
+                        <p> <strong>Jake Paul</strong> <br>UX/UI designer</p>
+                        
+                    </div>
+                </div>
+             </div>
+        </div>
+        
+    </section>
+</body>
+
+</html>
